@@ -228,6 +228,18 @@
   .card4 {
     background-image: url("images/collection4.jpeg");
   }
+  .card5 {
+    background-image: url("images/independence.jpeg");
+  }
+  .card6 {
+    background-image: url("images/weekend.jpeg");
+  }
+  .card7 {
+    background-image: url("images/rakshabandhan.webp");
+  }
+  .card8 {
+    background-image: url("images/nightclub.jpeg");
+  }
   
   .overlay {
     width: 100%;
