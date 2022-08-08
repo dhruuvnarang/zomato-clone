@@ -425,7 +425,7 @@
     margin-left: 5px;
     border-radius: 10px;
     width: 85vw;
-    height: 9vh;
+    height: 80px;
     background: rgb(255,255,255);
     border: solid 1px rgb(232,232 ,232);
     font-weight: 400;
@@ -490,13 +490,23 @@
       height: 80px;
     }
     }
-  @media only screen and (max-width: 250px){
+  @media only screen and (max-width: 445px){
+     .indi_card{
+      font-size: 17px;
+      width: 80vw;
+      height: 68px;
+     }
+  }
+    @media only screen and (max-width: 250px){
     .popcard{
       font-size: 70%;
           }
     #pop_place{
       font-size: 85%;
     }
+    .indi_card{
+      font-size: 13px;
+     }
   }
   
   .footer {
