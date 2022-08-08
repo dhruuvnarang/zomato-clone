@@ -207,6 +207,10 @@
     background-position: center;
     border-radius: 10px;
     position: relative;
+    transition: all 0.3s ease;
+  }
+  .collections_card_container .card:hover{
+    transform: scale(1.04);
   }
   
   .card1 {
