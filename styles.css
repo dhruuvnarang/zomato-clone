@@ -271,7 +271,7 @@
     text-align: left;
     margin: 9px;
     width: 28vw;
-    height :11vh;
+    height :80px;
     padding: 9px;
     background: rgb(255,255,255);
     border: solid 1px rgb(232,232 ,232);
@@ -456,17 +456,14 @@
     }
     .popcard{
       font-size: 80%;
-      height: 8vh;
+      height: 65px;
       width: 35vw;
-    }
-    #pop_place{
-      font-size: 95%;
     }
   }
   @media only screen and (max-width: 790px){
     .popcard{
       width: 35vw;
-      height: 8vh;
+      height: 65px;
     }
   }
   
@@ -478,6 +475,11 @@
     .get__the_app .semiContainer {
       width: 80%;
       flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 572px){
+    #pop_place{
+      font-size: 22px;
     }
   }
   
